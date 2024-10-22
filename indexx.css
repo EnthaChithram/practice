@@ -7,6 +7,7 @@ body {
     
     margin: 0px 0px;
     margin-bottom: 0%;
+    transition: 1s;
 }
 video {
     position: absolute;
@@ -106,6 +107,7 @@ button:hover {
     border-radius: 3.5px;
     /* display: block; */
     opacity: 1;
+    transition: 0.8s;
 }
 
 
@@ -140,7 +142,7 @@ button:hover {
     margin-top: 70px;
     z-index: 1000;
 
-    border: solid 1px white;
+    
 
     width: 233px;
 
@@ -162,7 +164,7 @@ button:hover {
 
     z-index: 1000;
 
-    border: solid 1px white;
+    
 
     width: 233px;
 
@@ -232,7 +234,7 @@ button:hover {
     0% {
         opacity: 0;
         /* Start transparent */
-        transform: translateY(100px);
+        
         /* Start 20px lower */
     }
 
@@ -241,10 +243,14 @@ button:hover {
     100% {
         opacity: 1;
         /* End fully visible */
-        transform: translateY(0px);
+        
         /* Move to original position */
     }
 
+}
+video {
+    animation: fadeIn ease 2s ;
+    opacity: 1;
 }
 
 

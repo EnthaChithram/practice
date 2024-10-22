@@ -63,7 +63,7 @@ function togglt() {
         
         mid.setAttribute(
             "style",
-            "opacity:0; transition:2s; width: 233px; height:350px;"
+            "opacity:0; transition:1s; width: 233px; height:350px;"
           );
     }
     else {
