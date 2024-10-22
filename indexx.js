@@ -63,7 +63,7 @@ function togglt() {
         
         mid.setAttribute(
             "style",
-            "display:none"
+            "opacity:0; transition:2s; width: 233px; height:350px;"
           );
     }
     else {
@@ -85,7 +85,7 @@ function togglt() {
 
 
 
-document.getElementById('2nd').addEventListener('click', () => { console.log('clickeddd') });
+document.getElementById('second').addEventListener('click', () => { console.log('clickeddd') });
 
 
 

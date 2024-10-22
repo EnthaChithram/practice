@@ -104,6 +104,8 @@ button:hover {
 
 .old > img{
     border-radius: 3.5px;
+    /* display: block; */
+    opacity: 1;
 }
 
 
